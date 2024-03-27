@@ -1,0 +1,8 @@
+helmChart:
+  repo: https://charts.jetstack.io
+  chartName: cert-manager
+  chartVersion: v1.14.4
+  skipPrePull: false # works only with true
+  releaseName: cert-manager
+  namespace: "cert-manager"
+  output: deploy.yaml

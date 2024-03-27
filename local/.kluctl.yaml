@@ -1,0 +1,4 @@
+discriminator: infra-{{ target.name }}
+
+targets:
+  - name: local

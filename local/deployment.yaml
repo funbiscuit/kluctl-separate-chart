@@ -1,0 +1,4 @@
+deployments:
+  - include: ../deploy
+    args:
+      certManager: true
